@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    //= template/head.html
+</head>
+<body>
+<section class="welcome-page">
+    <div class="welcome-page__form container authorization">
+        <div class="authorization__left left-box">
+            <img  class="left-box__image" src="img/cart.svg">
+            <div class="left-box__head">
+                Welcome Page
+            </div>
+            <p class="left-box__text">
+                Sign in to continue access pages
+            </p>
+        </div>
+        <form class="authorization__right form">
+            <div class="form__head">
+                Sign In
+            </div>
+            <p class="form__sign">
+                Sign in to continue access pages
+            </p>
+            <input type="email" class="form__input form__email" id="mail" placeholder="Email Address">
+            <div id="error" class="form__error">
+                Введенный email не является правильным!
+            </div>
+            <div id="errorEmpty" class="form__error">
+                Поле email не должно быть пустым!
+            </div>
+            <input type="password" class="form__input form__password" placeholder="Password">
+            <button class="form__continue-btn continue-button form-buttons">
+                CONTINUE
+                <img class="continue-button__image" src="img/continue-arrow.svg">
+            </button>
+            <p class="form__social-sign">
+                or Connect with Social Media
+            </p>
+            <button class="form__twitter-btn form-buttons">
+                <img src="img/twitter.svg">
+                Sign In With Twitter
+            </button>
+            <button class="form__facebook-btn form-buttons">
+                <img src="img/facebook.svg">
+                Sign In With Facebook
+            </button>
+        </form>
+    </div>
+</section>
+//= template/footer.html
+</body>
+</html>

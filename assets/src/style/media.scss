@@ -1,0 +1,82 @@
+@media (max-width: 1300px) {
+  .container {
+    max-width: 700px;
+  }
+  .authorization {
+    flex-wrap: wrap;
+    &__left {
+      display: none;
+    }
+    &__right {
+      flex: 100%;
+      max-width: 700px;
+      background-image: none;
+      background-color: white;
+      border-radius: 41px;
+      padding: 40px;
+      margin: 20px auto 0;
+    }
+  }
+  .welcome-page {
+    &__form {
+      background-image: none;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .authorization {
+    &__right {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 20px;
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .welcome-page {
+    padding: 20px 0;
+  }
+  .form {
+    &__head {
+      font-size: 32px;
+    }
+    &__sign {
+      font-size: 14px;
+    }
+    &__email {
+      margin-top: 25px;
+    }
+    &__facebook-btn {
+      padding: 10px 20px;
+      img {
+        padding-right: 5px;
+      }
+    }
+    &__twitter-btn {
+      padding: 12px 20px;
+      img {
+        padding-right: 5px;
+      }
+    }
+    &__continue-btn {
+      padding: 13px;
+    }
+    &__input {
+      padding: 10px 20px;
+    }
+    &__error {
+      font-size: 10px;
+      padding-left: 10px;
+    }
+  }
+  .form-buttons {
+    max-height: 50px;
+    text-align: center;
+  }
+  .continue-button {
+    &__image {
+      width: 10px;
+    }
+  }
+}
